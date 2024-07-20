@@ -1,0 +1,92 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive User Profile</title>
+    <link rel="stylesheet" href="profile.css">
+   
+</head>  
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/slides/orginallogo.png" alt="Logo">
+                <span>Good Health and Well-Being</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="profile.html"> User&nbsp;&nbsp;Profile</a></li>
+                 <li><a href="team.html"> About&nbsp;&nbsp;Us</a></li>
+                <li><a href="svg.html">Site&nbsp;&nbsp;Map</a></li>
+                <li><a href="feedback.html">Feed&nbsp;&nbsp;Back</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <h3>USER PROFILE FORM</h3> 
+    <div class="button_zone">
+        <button class="start" onclick="startProfile()">Start Profile</button>
+        <button class="logout" onclick="logout()">Logout</button>
+        <p class="button_par"></p>
+    </div>
+    <div class="profile_zone">
+        <div class="progress_bar">
+            <div class="progress"></div>
+        </div>
+        <div class="step_buttons">
+            <button onclick="goToStep(1)">Step 1</button>
+            <button onclick="goToStep(2)">Step 2</button>
+            <button onclick="goToStep(3)">Step 3</button>
+            <button onclick="goToStep(4)">Step 4</button>
+        </div>
+        <div class="profile_output"></div>
+        <div class="form-container"></div>
+        <div class="navigation_buttons">
+            <button class="prev" onclick="prevPrompt()">Previous</button>
+            <button class="next" onclick="nextPrompt()">Next</button>
+            <button class="skip" onclick="skipPrompt()">Skip</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="who-are-we">
+                <h4>Who are we?</h4>
+                <p>We, the Software Engineering students from Group C(2) at the Informatics Institute of Technology, Sri Lanka,
+                     have undertaken this project with a focus on promoting and understanding the multifaceted concept of good health and well-being. 
+                     This topic holds significant relevance as it directly impacts the individual and societal spheres, 
+                     and we are committed to delving into it throughout the assignment</p>
+            </div>
+            <div class="meet-us">
+                <h4>Meet Us</h4>
+                <ul>
+                   
+                    <a href="tharaki.html"><li>Tharaki Dimithri</li> </a> 
+                    <a href="nirukshika.html"> <li>Nirukshika Wijesiri</li> </a>
+                    <a href="nethmi.html"> <li>Nethmi Nagahawaththe</li> </a>
+                </ul>
+            </div>
+            <div class="about-project">
+                <h4>What about this?</h4>
+                <p>Over the last 15 years, the number of childhood deaths has been cut in half. This proves that it is possible to win the fight against almost every disease. Still, we are spending an astonishing amount of money and resources on treating illnesses that are surprisingly easy to prevent. The new goal for worldwide Good Health promotes healthy lifestyles, preventive measures and modern, efficient healthcare for everyone.</p>
+                <a href="https://www.globalgoals.org/goals/3-good-health-and-well-being/">Read More</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 University of Westminster. All rights reserved.</p>
+    </footer>
+
+    
+    <script src="profile.js">
+
+    </script>
+</body>
+</html>

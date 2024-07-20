@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor Page</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+                <span>Good Health and Well-Being</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home.html">Home</a></li>
+                <li><a href="#about">Gallery</a></li>
+                <li><a href="#services">Shop</a></li>
+                <li><a href="#testimonials"> User&nbsp;&nbsp;Profile</a></li>
+                <li><a href="#testimonials">Site&nbsp;&nbsp;Map</a></li>
+                <li><a href="#testimonials">Feed&nbsp;&nbsp;Back</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <!-- Each item represents a slide in the slider -->
+            <div class="item active">
+                <img src="image/img1.jpg">
+                <div class="content">
+                    <p>image 01</p>
+                    <h2>Drink enough water</h2>
+                    <p>Water is vital to our health. It plays a key role in many of our body's functions, including bringing nutrients to cells, 
+                       getting rid of wastes, protecting joints and organs, and maintaining body temperature
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img2.jpg">
+                <div class="content">
+                    <p>image 02</p>
+                    <h2>Yoga</h2>
+                    <p>
+                        Yoga brings the body and mind together and is built on three main elements – movement, breathing and meditation. 
+                        Yoga has many physical and mental health benefits including improved posture, flexibility, strength, balance and body awareness
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img3.jpg">
+                <div class="content">
+                    <p>image 03</p>
+                    <h2>Workouts</h2>
+                    <p>
+                        Going to the gym helps to improve physical health. Regular exercise can reduce the risk of chronic diseases and promote overall health. Secondly, 
+                        it helps to improve mental health by reducing stress and anxiety levels. Thirdly, it can help you to build a community and make new friends with similar goals.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img4.jpg">
+                <div class="content">
+                    <p>image 04</p>
+                    <h2>Eat Healthy</h2>
+                    <p>
+                        Eating healthy provides the necessary nutrients that your body needs to create new cells, 
+                        clear out toxins and to simply function every day! Eating healthy now can help prevent future diseases such as diabetes and cancer. 
+                        You will have more energy and be more alert.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img5.jpeg">
+                <div class="content">
+                    <p>image 05</p>
+                    <h2>Get enough sleep</h2>
+                    <p>
+                        Getting enough sleep can play an important role in your weight, emotional wellbeing, blood pressure, diabetes, mental and physical performance, and more. 
+                        Remember that adults aren't the only ones who need good sleep. It's also critical that children get even more sleep than adults.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <!-- Previous button -->
+            <button id="prev"><</button>
+            <!-- Next button -->
+            <button id="next">></button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <!-- Thumbnails for each slide -->
+            <div class="item active">
+                <img src="image/img1.jpg">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img2.jpg">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img3.jpg">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img4.jpg">
+                <div class="content">
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/img5.jpeg">
+                <div class="content">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="who-are-we">
+                <h3>Who are we?</h3>
+                <p>We, the Software Engineering students from Group C(2) at the Informatics Institute of Technology, Sri Lanka,
+                    have undertaken this project with a focus on promoting and understanding the multifaceted concept of good health and well-being. 
+                    This topic holds significant relevance as it directly impacts the individual and societal spheres, 
+                    and we are committed to delving into it throughout the assignment</p>
+            </div>
+            <div class="meet-us">
+                <h3>Meet Us</h3>
+                <ul>
+                    <li>Tharaki Dimithri</li>
+                    <li>Nirukshika Wijesiri</li>
+                    <li>Nethmi Nagahawaththe</li>
+                </ul>
+            </div>
+            <div class="about-project">
+                <h3>What about this?</h3>
+                <p>Over the last 15 years, the number of childhood deaths has been cut in half. This proves that it is possible to win the fight against almost every disease. Still, we are spending an astonishing amount of money and resources on treating illnesses that are surprisingly easy to prevent. The new goal for worldwide Good Health promotes healthy lifestyles, preventive measures and modern, efficient healthcare for everyone.</p>
+                <a href="https://www.globalgoals.org/goals/3-good-health-and-well-being/">Read More</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 University of Westminster. All rights reserved.</p>
+    </footer>
+<!-- JavaScript file for slider functionality -->
+    <script src="app.js"></script>
+</body>
+</html>
