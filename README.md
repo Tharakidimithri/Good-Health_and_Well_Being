@@ -5,4 +5,4 @@ This project contains the frontend code for an interactive website focused on pr
 Visit to our website : 
 https://tharakidimithri.github.io/Good-Health_and_Well_Being/index.html
 
-![Uploading Screenshot 2024-07-20 230440.png…]()
+ 
